@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active hr{
+ @apply block;
+}
+
+@media (max-width:768px) {
+    .active p{
+        box-shadow:
+                0 0 5px #507687,
+                0 0 10px #507687,
+                0 0 15px #507687;
+    }
+}
